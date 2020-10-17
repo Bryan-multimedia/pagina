@@ -1,0 +1,413 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    font-family : 'Titillium Web', sans-serif;
+}
+
+h1{
+    margin-top: 430px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 150;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.topmargin-xs{ margin-top: 15px; }
+.topmargin-sm{ margin-top: 30px; }
+.topmargin-lg{ margin-top: 60px; }
+
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light{
+    background-color: #ffffff;
+    color: #000000;
+    border: #ff8d58;
+}
+
+.navbar{
+    background-color: #0a0a0a;
+    box-shadow: 0 5px 15px 0 rgba(76, 76, 76, 0.5);
+    min-height: 80px;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #ff8d58;
+}
+
+.logo-brand{
+    min-width: 110px;
+    max-width: 130px;
+
+}
+
+.navbar-toggler{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+
+#hero{
+    background-image: url(../images/1x/fondo.png);
+    background-size: cover;
+    padding-top: 2px;
+    min-height: 650px;
+    color: #ffffff;
+}
+
+#hero p{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.content-center{
+    justify-content: center;
+    max-width: 650px;
+    margin: 0 auto 80px auto;
+    text-align: center;
+}
+
+
+@media (max-width: 575.98px) {
+    h1 {font-size: 40px; line-height: normal}
+    .herra{ min-width: unset; padding-left: 100px; padding-right: 100px;}
+
+ }
+
+@media (max-width: 767.98px) { ... }
+
+
+@media (max-width: 991.98px) { ... }
+
+
+@media (max-width: 1199.98px) { ... }
+
+
+#autobiografia h2{
+    background-image: url(../images/1x/fondo2.png);
+    background-size: cover;
+    color: #000000;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ilustracion1{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.texto1 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#herramientas h2{
+    background-image: url(../images/1x/fondo3.png);
+    background-size: cover;
+    color: #000000;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.herra{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#experiencia h2{
+    background-image: url(../images/1x/fondo4.png);
+    background-size: cover;
+    color: #000000;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ilustracion2{
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ilustracion3{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.texto2 {
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#educacion h2{
+    background-image: url(../images/1x/fondo5.png);
+    background-size: cover;
+    color: #000000;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.texto3 {
+    margin-top: 20px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#intereses h2{
+    background-image: url(../images/1x/fondo6.png);
+    background-size: cover;
+    color: #000000;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pie{
+    background-color: #121212;
+    text-align: center;
+}
+
+.logo1{
+    margin-top: 10px;
+    width: 180px;
+}
+
+.logo2{
+
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+.uno{
+    background-image: url(../images/1x/fondo2.png);
+    background-size: cover;
+    min-height: 670px;
+}
+
+.img3{
+    text-align: left;
+    margin-top: 520px;
+}
+
+.boton1{
+    background-color: #BA7300;
+    color: #ffffff;
+}
+
+.dos{
+    background-image: url(../images/1x/fondo3.png);
+    background-size: cover;
+    min-height: 670px;
+}
+
+.img3{
+    text-align: left;
+    margin-top: 520px;
+}
+
+.boton2{
+    background-color: #540A72;
+    color: #ffffff;
+}
+
+.img4{
+    text-align: right;
+    margin-top: 520px;
+}
+
+.tres{
+    background-image: url(../images/1x/fondo7.png);
+    background-size: cover;
+    min-height: 670px;
+}
+
+.boton3{
+    background-color: #026666;
+    color: #ffffff;
+}
+
+.cuatro{
+    background-image: url(../images/1x/fondo8.png);
+    background-size: cover;
+    min-height: 670px;
+}
+
+.img5{
+    text-align: right;
+    margin-top: 520px;
+}
+
+.boton4{
+    background-color: #4E1051;
+    color: #ffffff;
+}
+
+.cinco{
+    background-image: url(../images/1x/fondo9.png);
+    background-size: cover;
+    min-height: 670px;
+}
+
+.img6{
+    text-align: left;
+    margin-top: 520px;
+}
+
+.boton5{
+    background-color: #0E1266;
+    color: #ffffff;
+}
+
+h3{
+    color: #ffffff;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+.formulario1{
+    margin-top: 50px;
+    color: #ff8d58;
+}
+
+.formulario2{
+    margin-top: 50px;
+    color: #ff8d58;
+}
+
+.formulario3{
+    color: #ff8d58;
+}
+
+.formulario4{
+    color: #ff8d58;
+}
+
+.formulario5{
+    color: #ff8d58;
+}
+
+
+.boton6{
+    background-color: #ff8d58;
+    color: #ffffff;
+}
+
+.hora{
+    min-height: 400px;
+}
+
+.horario{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.horario p{
+    margin-top: 40px;
+}
+
+.ubicacion{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.ubicacion p{
+    margin-top: 50px;
+}
+
+.telefono{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.telefono p{
+    margin-top: 50px;
+}
+
+.redes{
+    min-height: 500px;
+}
+
+.facebook{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.facebook p{
+    margin-top: 40px;
+}
+
+.instagram{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.instagram p{
+    margin-top: 50px;
+}
+
+.whatsapp{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.whatsapp p{
+    margin-top: 50px;
+}
